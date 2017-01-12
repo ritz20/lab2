@@ -136,6 +136,7 @@ int illegalStatements() {
 /* The main function, or the "entry function" of the lab2 program, simply calls the other
  * functions to run.
  */
+
 int main() {
     cout << ">> I'm going to run the lab review now:" << endl;
     illegalStatements();

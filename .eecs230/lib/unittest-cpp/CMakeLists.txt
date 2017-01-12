@@ -36,7 +36,7 @@ file(GLOB platformSources_ RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} UnitTest++/${pla
 source_group(${platformDir_} FILES ${platformHeaders_} ${platformSources_})
 
 # create the lib
-add_library(UnitTest++ STATIC ${headers_} ${sources_} ${platformHeaders_} ${platformSources_})
+add_library(UnitTest++ STATIC ${headers_} ${sources_} ${platformHeaders_} ${platformSources_} ../../../src/lab2_ex.cpp ../../../src/lab2_ex.cpp)
 set_property(TARGET UnitTest++ PROPERTY CXX_STANDARD 11)
 set_property(TARGET UnitTest++ PROPERTY CXX_STANDARD_REQUIRED On)
 
